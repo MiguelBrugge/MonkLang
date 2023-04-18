@@ -27,6 +27,7 @@
 #navBar a:hover{
     color: var(--primary) !important;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 /* Button */

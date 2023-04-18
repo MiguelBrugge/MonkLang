@@ -3,7 +3,6 @@ import Navigation from "./Components/navigation";
 const About = () => {
     return (
         <>
-            <Navigation activePage="About" />
             <h3 className="mt-5 fw-bold">About this application</h3>
             <div className="mx-auto w-50 mt-4 d-flex justify-content-center flex-column fs-5">
                 <p>

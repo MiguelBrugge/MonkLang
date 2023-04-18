@@ -15,7 +15,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 
-const Home = () => {
+const Home = ({ setPage }) => {
     const [practisePage, setPractisePage] = useState(false);
     const [fromWords, setFromWords] = useState([]);
     const [toWords, setToWords] = useState([]);
@@ -216,8 +216,7 @@ const Home = () => {
     }
     return (
         <div id="home">
-            <Navigation activePage={"Home"} />
-            <a id="questionButton" className="position-absolute bottom-0 end-0 m-3" href="MonkLang/Help" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            <a id="questionButton" className="position-absolute bottom-0 end-0 m-3" onClick={() => setPage("Help")}>
                 <FontAwesomeIcon className="fs-5" icon={faCircleQuestion} />
             </a>
             {changePage()}

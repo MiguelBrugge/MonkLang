@@ -12,10 +12,9 @@ import {
     faCircleQuestion,
 } from '@fortawesome/free-solid-svg-icons';
 
-const Help = () => {
+const Help = ({ setPage }) => {
     return (
         <>
-            <Navigation activePage="Home" />
             <h3 className="mt-5 fw-bold">Help</h3>
             <div className="mx-auto w-50 mt-4 d-flex justify-content-center text-start flex-column fs-5">
                 <p className="mb-1 fw-bold">Translate words</p>
@@ -31,7 +30,7 @@ const Help = () => {
             </div>
             <a className="text-decoration-none" href="/MonkLang">
             </a>
-            <Button id="button" className="bg-white textPrimaryDark mx-auto fs-6" text="Return" icon={faArrowLeft} onClick={() => window.location.href = '/MonkLang'} />
+            <Button id="button" className="bg-white textPrimaryDark mx-auto fs-6" text="Return" icon={faArrowLeft} onClick={() => setPage("Home")} />
         </>
     );
 }
