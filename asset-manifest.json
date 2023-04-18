@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MonkLang/static/css/main.41fa96c2.css",
+    "main.js": "/MonkLang/static/js/main.345d684c.js",
+    "index.html": "/MonkLang/index.html",
+    "main.41fa96c2.css.map": "/MonkLang/static/css/main.41fa96c2.css.map",
+    "main.345d684c.js.map": "/MonkLang/static/js/main.345d684c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41fa96c2.css",
+    "static/js/main.345d684c.js"
+  ]
+}
