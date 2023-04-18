@@ -29,9 +29,9 @@ const Help = () => {
                 <p>To get the right promt ask an AI like ChatGPT this: <em>Can you provide me with 30 English words and their corresponding Dutch translations? Please ensure that both lists are arranged in the same order. The first list should contain the English words, and the second list should contain their Dutch translations.</em>
                 </p>
             </div>
-            <a className="text-decoration-none" href="/">
+            <a className="text-decoration-none" href="/MonkLang">
             </a>
-            <Button id="button" className="bg-white textPrimaryDark mx-auto fs-6" text="Return" icon={faArrowLeft} onClick={() => window.location.href = '/'} />
+            <Button id="button" className="bg-white textPrimaryDark mx-auto fs-6" text="Return" icon={faArrowLeft} onClick={() => window.location.href = '/MonkLang'} />
         </>
     );
 }

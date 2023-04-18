@@ -14,13 +14,13 @@ const Navigation = ({ activePage }) => {
                 <p className="navbar-brand fw-bold mb-0" href="#">MonkLang</p>
                 <ul className="navbar-nav gap-3">
                     <li className="nav-item d-flex align-items-center">
-                        <a className={`nav-link ${activePage === "Home" ? "activeLink" : ""}`} href="/">
+                        <a className={`nav-link ${activePage === "Home" ? "activeLink" : ""}`} href="/MonkLang">
                             <FontAwesomeIcon className="me-2" icon={faHome} />
                             Home
                         </a>
                     </li>
                     <li className="nav-item d-flex align-items-center">
-                        <a className={`nav-link ${activePage === "About" ? "activeLink" : ""}`} href="/about">
+                        <a className={`nav-link ${activePage === "About" ? "activeLink" : ""}`} href="/MonkLang/about">
                             <FontAwesomeIcon className="me-2" icon={faInfoCircle} />
                             About
                         </a>

@@ -217,7 +217,7 @@ const Home = () => {
     return (
         <div id="home">
             <Navigation activePage={"Home"} />
-            <a id="questionButton" className="position-absolute bottom-0 end-0 m-3" href="/Help" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            <a id="questionButton" className="position-absolute bottom-0 end-0 m-3" href="MonkLang/Help" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
                 <FontAwesomeIcon className="fs-5" icon={faCircleQuestion} />
             </a>
             {changePage()}
