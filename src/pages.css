@@ -1,0 +1,83 @@
+:root {
+    --primaryDark: #1E2E68;
+    --primary: #829DFF;
+    --Gray: #74798C;
+    --lightGray: #DEDEDE;
+}
+
+body {
+    text-align: center;
+    color: var(--primaryDark);
+}
+
+.muted {
+    color: var(--Gray) !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightGray);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--Gray);
+    cursor: pointer;
+}
+
+/* Home */
+#home textarea,
+#home input {
+    border: solid 3px var(--lightGray);
+    resize: none;
+    outline: none;
+    color: var(--primaryDark);
+    font-weight: bold;
+}
+
+#home .container {
+    width: 60%;
+}
+
+#home .startButton {
+    width: 200px;
+}
+
+.rotate svg {
+    animation: rotate 0.15s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+#questionButton{
+    color: var(--primaryDark);
+}
+
+#questionButton:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.modal-content{
+    border: solid 3px var(--lightGray);
+}
+
+.fade{
+    background-color: rgba(0, 6, 14, 0.704);
+}

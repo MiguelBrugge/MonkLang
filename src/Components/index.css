@@ -1,0 +1,44 @@
+:root {
+    --primaryDark: #1E2E68;
+    --primary: #829DFF;
+    --Gray: #74798C;
+    --lightGray: #DEDEDE;
+}
+
+.bgPrimary{
+    background-color: var(--primary) !important;
+}
+
+.textPrimaryDark{
+    color: var(--primaryDark) !important;
+}
+
+/* Navigation */
+#navBar .navbar-brand{
+    color: #1E2E68;
+}
+#navBar{
+    --lightGray: #DEDEDE;
+    border-bottom: solid 3px var(--lightGray);
+}
+#navBar .activeLink{
+    color: var(--primary);
+}
+#navBar a:hover{
+    color: var(--primary) !important;
+    opacity: 0.8;
+}
+
+/* Button */
+#button{
+    border: solid 3px var(--lightGray);
+}
+#button:hover{
+    opacity: 0.8;
+}
+
+.times{
+    border: none !important;
+    color: var(--Gray) !important;
+}
+
